@@ -15,6 +15,7 @@ import rocket from "../public/rocket.png";
 import banana from "../public/banana.png";
 import star from "../public/star.png";
 import flower from "../public/flower.png";
+import Logo from "../public/logo.png";
 
 
 const NavItems = [

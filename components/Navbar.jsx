@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../public/logo.png";
 import Image from "next/image";
 import star from "../public/star.png";
 import mush from "../public/mushroom.png";

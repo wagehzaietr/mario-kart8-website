@@ -12,7 +12,6 @@ export default function GoUp() {
       setShow(false);
     }
   };
-  window.addEventListener("scroll", handleScroll);
 
   const goUp = () => {
     window.scrollTo({
