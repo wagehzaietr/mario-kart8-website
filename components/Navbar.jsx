@@ -6,29 +6,8 @@ import mush from "../public/mushroom.png";
 import { motion } from "framer-motion";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
+import { NavItems } from "@/data/SiteData";
 
-const NavItems = [
-  {
-    name: "Characters",
-    link: "#Characters",
-  },
-  {
-    name: "Courses",
-    link: "#tracks",
-  },
-  {
-    image: Logo,
-    link: "#",
-  },
-  {
-    name: "Power ups",
-    link: "#power-ups",
-  },
-  {
-    name: "Buy now",
-    link: "#buynow",
-  },
-];
 
 export default function Navbar() {
   const [isnavOpen, setNavOpen] = useState(false);

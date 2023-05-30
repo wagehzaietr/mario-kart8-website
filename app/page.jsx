@@ -7,12 +7,12 @@ import boo from "../public/boo.png";
 import redshell from "../public/redshell.png";
 import { motion } from "framer-motion";
 import fireball from "../public/fireball.png";
-import { ImPlay2, ImPause } from "react-icons/im";
+import { ImPlay2} from "react-icons/im";
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import YouTube from "react-youtube";
 
 const metadata = {
-  title: "Home",
+  title: "Mario Kart 8",
   description: "Home page description",
 };
 

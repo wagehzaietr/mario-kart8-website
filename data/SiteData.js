@@ -16,6 +16,31 @@ import banana from "../public/banana.png";
 import star from "../public/star.png";
 import flower from "../public/flower.png";
 
+
+const NavItems = [
+  {
+    name: "Characters",
+    link: "#Characters",
+  },
+  {
+    name: "Courses",
+    link: "#tracks",
+  },
+  {
+    image: Logo,
+    link: "#",
+  },
+  {
+    name: "Power ups",
+    link: "#power-ups",
+  },
+  {
+    name: "Buy now",
+    link: "#buynow",
+  },
+];
+
+
 const data = [
   {
     img: luigihead,
@@ -123,4 +148,4 @@ const powerUps = [
   },
 ];
 
-export { data, powerUps };
+export { data, powerUps, NavItems };
